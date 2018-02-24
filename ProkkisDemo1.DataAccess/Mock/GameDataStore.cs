@@ -1,7 +1,6 @@
-﻿using ProkkisDemo1.DataAccess;
+﻿using ProkkisDemo1.DataAccess.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProkkisDemo1.Business.Mock
 {

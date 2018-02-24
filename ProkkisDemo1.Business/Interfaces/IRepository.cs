@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ProkkisDemo1.DataAccess
+namespace ProkkisDemo1.DataAccess.Interfaces
 {
     public interface IRepository<T>
     {

@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProkkisDemo1.Business;
 using ProkkisDemo1.Business.Mock;
-using ProkkisDemo1.DataAccess;
-using System.Linq;
+using ProkkisDemo1.DataAccess.Interfaces;
 
 namespace ProkkisDemo1.Web.Controllers
 {

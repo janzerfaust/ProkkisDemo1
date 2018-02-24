@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using ProkkisDemo1.Business;
 using ProkkisDemo1.DataAccess;
+using ProkkisDemo1.DataAccess.Interfaces;
 
 namespace ProkkisDemo1
 {
