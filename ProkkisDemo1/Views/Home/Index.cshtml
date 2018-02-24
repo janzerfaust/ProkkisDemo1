@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ProkkisDemo1.Business.Game>
+@{
+    ViewData["Title"] = "Home";
+}
+
+@foreach(var game in Model)
+{
+    <div>
+        <h3>@game.Name</h3>
+        <p>
+            Published: @game.PublishDate.ToShortDateString()
+        </p>
+    </div>
+}
