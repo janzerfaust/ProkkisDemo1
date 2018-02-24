@@ -5,6 +5,9 @@ using System.Text;
 
 namespace ProkkisDemo1.Business.Mock
 {
+    /// <summary>
+    /// Mocking data
+    /// </summary>
     public class GameDataStore : IRepository<Game>
     {
         private List<Game> games;
