@@ -11,9 +11,4 @@ namespace ProkkisDemo1.DataAccess
             return (TRepository)Activator.CreateInstance(typeof(TRepository));
         }
     }
-
-    public interface IRepositoryFactory
-    {
-        TRepository CreateRepository<T, TRepository>() where TRepository : IRepository<T>;
-    }
 }
